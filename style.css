@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+.myDiv {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 500px;
+  text-align: center;
+  width: 50%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; /* if you want the light version */
+  background-color: #edecec;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+h2 {
+  font-family: verdana;
+  font-size: 20px;
+  color:#5b9279;
+}
+p {
+  font-family: verdana;
+  font-size: 15px;
+  color:#5b9279;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+@media (max-width:700px){
+  .headerLogo h1 {
+      text-align:left;
+  }
+
+}
+@media (min-width:1000px){
+.socialmedia {
+  margin-right:100px;
+}
+}
